@@ -1,3 +1,5 @@
+import type { ThemeColors } from "@/types/theme.type";
+
 const themes = {
   Orange: {
     light: {

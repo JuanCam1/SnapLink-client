@@ -1,5 +1,6 @@
 "use client";
 import setGlobalColorTheme from "@/lib/theme-colors";
+import type { ThemeColors, ThemeColorStateParams } from "@/types/theme.type";
 import { type ThemeProviderProps, useTheme } from "next-themes";
 import {
   createContext,
