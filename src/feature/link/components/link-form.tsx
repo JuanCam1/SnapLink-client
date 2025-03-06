@@ -43,7 +43,7 @@ const LinkForm = () => {
             <FormItem>
               <FormLabel>Descripción</FormLabel>
               <FormControl>
-                <Textarea className="py-5 border-gray-300 dark:border-gray-600 rounded-e-md rounded-s-none ring-0 text-base resize-none" placeholder="https://www.google.com" autoFocus {...field} />
+                <Textarea className="resize-none py-5 border-gray-300 dark:border-gray-600 rounded-e-md rounded-s-none ring-0 text-base resize-none" placeholder="https://www.google.com" autoFocus {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
