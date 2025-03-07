@@ -1,6 +1,4 @@
 "use client"
-import { Eye, EyeOff, CircleUserRound } from "lucide-react";
-import { redirect } from 'next/navigation'
 
 import useCreateLink from "../hooks/use-create-link";
 
@@ -30,7 +28,7 @@ const LinkForm = () => {
             <FormItem>
               <FormLabel>Enlace</FormLabel>
               <FormControl>
-                <Input className="py-5 border-gray-300 dark:border-gray-600 rounded-e-md rounded-s-none ring-0 text-base" placeholder="https://www.google.com" autoFocus {...field} />
+                <Input className="py-5 border-gray-300 dark:border-gray-600 rounded-md ring-0 text-base" placeholder="https://www.google.com" autoFocus {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -43,7 +41,7 @@ const LinkForm = () => {
             <FormItem>
               <FormLabel>Descripción</FormLabel>
               <FormControl>
-                <Textarea className="resize-none py-5 border-gray-300 dark:border-gray-600 rounded-e-md rounded-s-none ring-0 text-base resize-none" placeholder="https://www.google.com" autoFocus {...field} />
+                <Textarea className="pt-5 border-gray-300 dark:border-gray-600 rounded-md ring-0 text-base" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
