@@ -4,7 +4,7 @@ import { List } from "lucide-react";
 import TypographyH2 from "@/components/shared/typography-h2"
 import LinkForm from "@/feature/link/components/link-form"
 
-const page = () => {
+const FormPage = () => {
   return (
     <div className="relative flex flex-col justify-center items-center gap-6 w-full">
       <Link href="/dash/link" className="top-0 right-2 z-10 absolute flex justify-center items-center mt-2 p-2 border border-primary rounded-md">
@@ -20,4 +20,4 @@ const page = () => {
     </div>
   )
 }
-export default page
+export default FormPage;

@@ -2,7 +2,7 @@ import Link from "next/link"
 import LoginForm from "../../../feature/auth/login/components/login-form"
 import TypographyH2 from "@/components/shared/typography-h2"
 
-const page = () => {
+const LoginPage = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-6 w-full">
       <div className="max-sm:flex max-sm:flex-col max-sm:justify-center opacity-0 px-6 py-14 border dark:border-zinc-800 rounded-md w-full max-w-[500px] max-sm:h-full animate-slide-up">
@@ -21,4 +21,4 @@ const page = () => {
     </div>
   )
 }
-export default page
+export default LoginPage;

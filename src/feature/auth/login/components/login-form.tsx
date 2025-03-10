@@ -45,7 +45,7 @@ const LoginForm = () => {
                   <button
                     type="button"
                     onClick={handleVisible}
-                    className="inline-flex items-center bg-zinc-200 dark:bg-zinc-700 px-3 border border-e-0 border-gray-300 dark:border-gray-600 rounded-md text-gray-900 dark:text-gray-400 text-sm">
+                    className="inline-flex items-center bg-zinc-200 dark:hover:bg-zinc-900 dark:bg-zinc-700 px-2 border border-e-0 border-gray-300 dark:border-gray-600 rounded-md text-gray-900 dark:text-gray-400 text-sm">
                     {
                       isVisible ? (
                         <EyeOff className="size-5 text-gray-500 dark:text-gray-400" />

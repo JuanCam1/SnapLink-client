@@ -6,6 +6,7 @@ import { ThemeProvider as NextThemesProvider } from "next-themes";
 import ThemeDataProvider from "@/context/theme-provider";
 import Navbar from "@/components/shared/navbar";
 import "./globals.css";
+import { Toaster } from "@/components/ui/toaster";
 
 const robotMono = Roboto_Mono({
   variable: "--font-roboto-mono",
@@ -37,6 +38,7 @@ export default function RootLayout({
             <div className="flex flex-col justify-center items-center h-screen">
               <Navbar />
               <div className="flex justify-center pt-16 w-full h-full">{children}</div>
+              <Toaster />
             </div>
           </ThemeDataProvider>
         </NextThemesProvider>
