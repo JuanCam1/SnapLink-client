@@ -6,7 +6,7 @@ import TypographyP from "@/components/shared/typography-p";
 
 const HeroSection = () => {
   return (
-    <section className="h-full w-full py-12 md:py-24 lg:py-32 bg-muted/50 rounded-md flex justify-center items-center ">
+    <section className="h-[90%] w-full py-12 md:py-24 lg:py-32 bg-muted/50 flex justify-center items-center ">
       <div className="flex flex-col justify-center items-center space-y-4">
         <div className="space-y-2">
           <TypographyH1
